@@ -1,0 +1,152 @@
+#ID
+proxies:
+- name: 1
+  type: trojan
+  server: idtj-ikd.bonds.id
+  port: 443
+  password: 388f31a0-89f1-11ed-9baa-1239d0255272
+  udp: true
+  sni: meet.google.com
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: idtj-ikd.bonds.id
+- name: 2
+  type: trojan
+  server: idtj-ikd.bonds.id
+  port: 443
+  password: af86e400-89f1-11ed-9aa6-1239d0255272
+  udp: true
+  sni: meet.google.com
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: idtj-ikd.bonds.id
+- name: 3
+  type: trojan
+  server: idtj-ikd.bonds.id
+  port: 443
+  password: e3e35df0-89f1-11ed-b72a-1239d0255272
+  udp: true
+  sni: meet.google.com
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: idtj-ikd.bonds.id
+- name: 4
+  type: trojan
+  server: idtj-ikd.bonds.id
+  port: 443
+  password: 107605c0-89f2-11ed-a9dc-1239d0255272
+  udp: true
+  sni: meet.google.com
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: idtj-ikd.bonds.id
+- name: 5
+  type: trojan
+  server: idtj-ikd.bonds.id
+  port: 443
+  password: 43b65920-89f2-11ed-b264-1239d0255272
+  udp: true
+  sni: meet.google.com
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: idtj-ikd.bonds.id
+- name: 6
+  type: trojan
+  server: idtj-herza.bonds.id
+  port: 443
+  password: 7eb5e9f0-89f1-11ed-881c-1239d0255272
+  udp: true
+  sni: meet.google.com
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: idtj-herza.bonds.id
+- name: 7
+  type: trojan
+  server: idtj-herza.bonds.id
+  port: 443
+  password: 5dd19d30-89f2-11ed-bb11-1239d0255272
+  udp: true
+  sni: meet.google.com
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: idtj-herza.bonds.id
+- name: 8
+  type: trojan
+  server: idtj-herza.bonds.id
+  port: 443
+  password: 82b9ba40-89f2-11ed-b161-1239d0255272
+  udp: true
+  sni: meet.google.com
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: idtj-herza.bonds.id
+- name: 9
+  type: trojan
+  server: idtj-herza.bonds.id
+  port: 443
+  password: acaa2ac0-89f2-11ed-9ed4-1239d0255272
+  udp: true
+  sni: meet.google.com
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: idtj-herza.bonds.id
+- name: 10
+  type: trojan
+  server: idtj-herza.bonds.id
+  port: 443
+  password: c7150e90-89f2-11ed-9783-1239d0255272
+  udp: true
+  sni: meet.google.com
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: idtj-herza.bonds.id
